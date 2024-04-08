@@ -1,0 +1,104 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* frontend/src/App.css */
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 200px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.loading-message,
+.error-message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #dc3545;
+}
+
+.weather-info {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #f36c6c, #deb86d);
+}
+
+.city-name {
+  font-size: 24px;
+}
+
+.weather-detail {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+body {
+  background-image: url("../../Weatherrr.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
